@@ -1,0 +1,6 @@
+[Unit]
+Description=test
+
+[Service]
+ExecStart=/usr/local/bin/test.sh
+Type=onshot
